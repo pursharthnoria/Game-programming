@@ -95,8 +95,8 @@ ball.color("white")
 ball.shape("square")
 ball.penup()
 ball.goto(0,0)
-ball.dx=0.4
-ball.dy=0.4
+ball.dx=0.3
+ball.dy=0.3
 
 game_over = False
 while True:
