@@ -53,7 +53,7 @@ def paddle_a_up():
     if y==300:
         y=y+0
     else:
-        y=y+20
+        y=y+30
     paddle_a.sety(y)
 
 def paddle_a_down():
@@ -61,7 +61,7 @@ def paddle_a_down():
     if y==-300:
         y=y+0
     else:
-        y=y-20
+        y=y-30
     paddle_a.sety(y)
 
 def paddle_b_up():
@@ -69,7 +69,7 @@ def paddle_b_up():
     if y==300:
         y=y+0
     else:
-        y=y+20
+        y=y+30
     paddle_b.sety(y)
 
 def paddle_b_down():
@@ -77,7 +77,7 @@ def paddle_b_down():
     if y==-300:
         y=y+0
     else:
-        y=y-20
+        y=y-30
     paddle_b.sety(y)
 
 
