@@ -1,6 +1,5 @@
 import turtle
 import time
-import winsound
 
 score_a = 0
 score_b = 0
