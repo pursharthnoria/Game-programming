@@ -16,3 +16,4 @@ after installing python write the following commands in your command prompt
 1. pip install turtle
 2. pip install pygame
 3. pip install random
+4. pip install nltk
