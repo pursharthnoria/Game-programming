@@ -7,3 +7,5 @@ use 'pip install pygame' in your command prompt.
 After that just run the python script.
 
 Enjoy!
+Here is a video sample of the game.
+https://vimeo.com/427038861
