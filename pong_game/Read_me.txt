@@ -12,3 +12,6 @@ The second player has to control the paddle using these controls:
 'down arrow key' - go down
 
 enjoy!
+
+Here is the video sample of the game.
+https://vimeo.com/427045593
