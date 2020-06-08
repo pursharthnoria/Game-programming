@@ -1,6 +1,5 @@
 import turtle
 import time
-import winsound
 
 score_a = 0
 score_b = 0
@@ -54,7 +53,7 @@ def paddle_a_up():
     if y==300:
         y=y+0
     else:
-        y=y+20
+        y=y+30
     paddle_a.sety(y)
 
 def paddle_a_down():
@@ -62,7 +61,7 @@ def paddle_a_down():
     if y==-300:
         y=y+0
     else:
-        y=y-20
+        y=y-30
     paddle_a.sety(y)
 
 def paddle_b_up():
@@ -70,7 +69,7 @@ def paddle_b_up():
     if y==300:
         y=y+0
     else:
-        y=y+20
+        y=y+30
     paddle_b.sety(y)
 
 def paddle_b_down():
@@ -78,7 +77,7 @@ def paddle_b_down():
     if y==-300:
         y=y+0
     else:
-        y=y-20
+        y=y-30
     paddle_b.sety(y)
 
 
@@ -96,8 +95,8 @@ ball.color("white")
 ball.shape("square")
 ball.penup()
 ball.goto(0,0)
-ball.dx=0.4
-ball.dy=0.4
+ball.dx=0.3
+ball.dy=0.3
 
 game_over = False
 while True:
