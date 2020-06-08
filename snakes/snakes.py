@@ -108,7 +108,7 @@ def game_loop():
             #pygame.draw.rect(gameWindow,black,[snake_x,snake_y,snake_size,snake_size])
             plot_snake(gameWindow,black,snk_list,snake_size)
         pygame.display.update()
-        clock.tick(40)   #fps
+        clock.tick(30)   #fps
 
     pygame.quit()
     quit()
